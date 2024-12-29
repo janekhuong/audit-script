@@ -1,0 +1,23 @@
+Parsing arguments:
+✔ set up variables for command-line arguments @done(24-12-28 20:35)
+✔ 4 arguments: scriptName, commandName, dataFile, excelFile @done(24-12-28 20:35)
+✔ raise exception if incorrrect number of arguments @done(24-12-28 20:35)
+
+function converting pdf to csv:
+✔ write function to convert input pdf to csv file @done(24-12-28 20:46)
+✔ return new csv file @done(24-12-28 20:46)
+
+main:
+✔ IF dataFile is not csv, call pdf to csv function @done(24-12-28 20:53)
+✔ call function depending on command argument @done(24-12-28 20:57)
+
+fill with exec names:
+✔ switch to exec sheet @done(24-12-29 00:36)
+✔ parse data file to obtain name, email, phone number, student id @done(24-12-29 01:39)
+✔ fill rows and cols with data (using loops) @done(24-12-29 01:39)
+
+fill with bank transactions:
+✔ parse csv file for essential data: customer name, status completed, due date, amount @done(24-12-29 18:37)
+✔ sort by due date @done(24-12-29 18:37)
+✔ starting at row 9, column B, find next empty row and append corresponding data to excel rows @done(24-12-29 18:37)
+
