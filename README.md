@@ -14,11 +14,10 @@ A Python script that processes data from a PDF file, converts it to CSV format, 
 - Required Python libraries:
   - `pandas`
   - `openpyxl`
-  - `PyPDF2` or similar library for PDF processing
 
 Install the dependencies:
 ```bash
-pip install pandas openpyxl PyPDF2
+pip install pandas openpyxl
 ```
 
 ## Usage
@@ -30,7 +29,7 @@ pip install pandas openpyxl PyPDF2
 
    - `<command>`: Specifies the operation to perform: fillExecs or fillTransactions
    - `<data.pdf>`: Path to the input PDF file containing the data
-   - `<spreadsheet.xlsx>`: Path to the Excel spreadsheet to be populated
+   - `<spreadsheet.xlsx>`: Path to the Excel spreadsheet to be populated (format must be the same as "audit.xlsx")
 
 2. The script will:
    - Convert the PDF to CSV
